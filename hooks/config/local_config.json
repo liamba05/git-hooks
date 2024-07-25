@@ -1,0 +1,8 @@
+{
+  "jira_info": {
+    "api_token": "jira api token",
+    "personal_email": "jira email coorelating to api token"
+  },
+  "git_token": "git token"
+
+}

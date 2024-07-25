@@ -1,0 +1,17 @@
+default_install_hook_types: ['commit-msg', 'pre-commit']
+
+repos:
+  - repo: local
+    hooks:
+      - id: jira-commit-msg
+        name: JIRA Ticket Commit-Msg Check
+        entry: python ../infr-git-hooks-clientside/hooks/jira_ticket_check.py
+        language: python
+        additional_dependencies: ['requests','jira']
+        stages: [commit-msg]
+      - id: file-auth-pre-commit
+        name: File Permission Pre-Commit Check
+        entry: python ../infr-git-hooks-clientside/hooks/file_permission_check.py
+        language: python
+        additional_dependencies: ['requests']
+        stages: [pre-commit]
