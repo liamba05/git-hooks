@@ -1,4 +1,4 @@
-Installation guide can be found [here](https://wincom-plm.atlassian.net/wiki/spaces/WK/pages/104005637/How+to+install+git+client-side+hooks)
+Installation guide can be found [here](https://github.com/liamba05/hooksConfig/blob/main/installation-guide.pdf)
 
 
 How Jira Ticket Check Hook Works:
